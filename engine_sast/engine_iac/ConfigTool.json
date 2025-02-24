@@ -1,0 +1,58 @@
+{
+    "SEARCH_PATTERN": [
+        "ms_"
+    ],
+    "IGNORE_SEARCH_PATTERN": "(.*_test)",
+    "MESSAGE_INFO_ENGINE_IAC": "message custom",
+    "THRESHOLD": {
+        "VULNERABILITY": {
+            "Critical": 1,
+            "High": 8,
+            "Medium": 10,
+            "Low": 15
+        },
+        "COMPLIANCE": {
+            "Critical": 1
+        }
+    },
+    "UPDATE_SERVICE_WITH_FILE_NAME_CFT": false,
+    "CHECKOV": {
+        "VERSION": "2.3.296",
+        "USE_EXTERNAL_CHECKS_GIT": false,
+        "EXTERNAL_CHECKS_GIT": "",
+        "EXTERNAL_GIT_SSH_HOST": "",
+        "EXTERNAL_GIT_PUBLIC_KEY_FINGERPRINT": "",
+        "USE_EXTERNAL_CHECKS_DIR": false,
+        "EXTERNAL_DIR_OWNER": "",
+        "EXTERNAL_DIR_REPOSITORY": "",
+        "APP_ID_GITHUB":"",
+        "INSTALLATION_ID_GITHUB":"",
+        "DEFAULT_SEVERITY": "Low",
+        "DEFAULT_CATEGORY": "Vulnerability",
+        "RULES": {
+            "RULES_DOCKER": {
+
+            },
+            "RULES_K8S": {
+
+            },
+            "RULES_CLOUDFORMATION": {
+
+            },
+            "RULES_TERRAFORM": {
+
+            }
+        }
+    },
+    "KUBESCAPE": {
+        "VERSION": "3.0.11"
+    },
+    "KICS": {
+        "VERSION": "2.1.0",
+        "KICS_LINUX": "https://example.url/kics/bin/linux/kics.zip",
+        "KICS_WINDOWS": "https://example.url/kics/bin/windows/kics.zip",
+        "KICS_MAC": "https://example.url/kics/bin/mac/kics.zip",
+        "PATH_KICS": "./kics/kics",
+        "DOWNLOAD_KICS_ASSETS": false
+    }
+}
