@@ -24,7 +24,7 @@
     "DEPENDENCY_CHECK": {
         "CLI_VERSION": "12.1.0",
         "REGEX_EXPRESSION_EXTENSIONS": "\\.(jar|ear|war)$",
-        "PACKAGES_TO_SCAN": ["node_modules", "site-packages"],
+        "PACKAGES_TO_SCAN": ["node_modules", "site-packages", "package"],
         "VULNERABILITY_CONFIDENCE" : ["highest"]
     }
 }
