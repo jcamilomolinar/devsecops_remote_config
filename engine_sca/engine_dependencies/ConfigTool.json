@@ -11,10 +11,10 @@
     "MESSAGE_INFO_ENGINE_DEPENDENCIES": "message custom",
     "THRESHOLD": {
         "VULNERABILITY": {
-            "Critical": 3,
-            "High": 5,
-            "Medium": 10,
-            "Low": 15
+            "Critical": 99,
+            "High": 99,
+            "Medium": 99,
+            "Low": 99
         },
         "COMPLIANCE": {
             "Critical": 1
@@ -25,6 +25,6 @@
         "CLI_VERSION": "12.1.0",
         "REGEX_EXPRESSION_EXTENSIONS": "\\.(jar|ear|war)$",
         "PACKAGES_TO_SCAN": ["node_modules", "site-packages"],
-        "VULNERABILITY_CONFIDENCE" : ["highest"]
+        "VULNERABILITY_CONFIDENCE" : ["no_confidence", "low", "medium", "high", "highest"]
     }
 }
