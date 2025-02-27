@@ -14,7 +14,7 @@
             "main"
         ],
         "DEFECT_DOJO": {
-            "HOST_DEFECT_DOJO": "",
+            "HOST_DEFECT_DOJO": "http://deployment-defect-load-balancer-1254271803.us-east-1.elb.amazonaws.com:8080",
             "LIMITS_QUERY": 100,
             "MAX_RETRIES_QUERY": 5,
             "REIMPORT_SCAN": false,
